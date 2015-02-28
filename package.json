@@ -1,0 +1,28 @@
+{
+    "main": "./html/index.html",
+    "window": {
+        "title": "node-webkit demo",
+        "icon": "link.png",
+        "toolbar": false,
+        "frame": true,
+        "width": 820,
+        "height": 500,
+        "position": "mouse",
+        "min_width": 400,
+        "min_height": 200,
+        "max_width": 800,
+        "max_height": 600
+    },
+    "name": "subtitle-downloader",
+    "description": "demo app of node-webkit",
+    "version": "0.1.0",
+    "keywords": [
+        "NodeSchool",
+        "NTM"
+    ],
+    "dependencies": {
+        "subscene": "*",
+        "cheerio": "*",
+        "request": "*"
+    }
+}
